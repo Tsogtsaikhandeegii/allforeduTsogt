@@ -1,0 +1,11 @@
+src/node_modules/
+src/.cache/
+src/public/styles/.sass-cache/
+src/yarn-error.log
+src/static/admin/*.bundle.*
+src/.next/
+.DS_Store
+src/package-lock.json
+yarn.lock
+*.log
+node_modules

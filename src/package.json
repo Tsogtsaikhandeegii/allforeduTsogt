@@ -1,0 +1,51 @@
+{
+  "name": "gerege-wordpress-template",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "lint": "eslint --ext .js,.js .",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.16",
+    "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "framer-motion": "^4",
+    "google-map-react": "^2.1.10",
+    "i18n-react": "^0.7.0",
+    "mdbreact": "^5.2.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "next": "9.4.2",
+    "next-routes": "^1.4.2",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "1.6.1",
+    "react-dom": "^16.13.1",
+    "react-moment": "^1.1.1",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.1",
+    "react-share": "^4.0.1",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "wpapi": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "normalize.css": "^8.0.1",
+    "prettier": ">= 1.13.0"
+  }
+}
